@@ -1,60 +1,80 @@
-# Business Performance Analysis Dashboard – Excel
+# MIS Analytics – End-to-End Business Performance Analysis
 
 ## Project Overview
-This project focuses on analysing business performance across Sales, Operations, CRM, and Finance using Microsoft Excel.
+This project focuses on analysing business performance across Sales, Operations, CRM, Finance and Customer data.
 
-An interactive dashboard was developed to monitor key performance indicators (KPIs), identify trends, and generate meaningful business insights from the data.
+The project follows an end-to-end analytics approach, including data cleaning, SQL analysis, Excel reporting, Power BI visualisation and Root Cause Analysis (RCA).
 
 ## Tools & Technologies
 - Microsoft Excel
-- Pivot Tables
-- Pivot Charts
+- SQL Server (SSMS)
+- Power BI
+- Google Apps Script
 - Power Query
-- Slicers
-- Data Cleaning and Analysis
 
-## Dashboard KPIs
-The dashboard tracks five key performance indicators:
+## Project Components
 
+### 1. Data Cleaning
+- Cleaned and standardised multiple business datasets.
+- Handled duplicate records, inconsistent formats and missing values.
+- Prepared structured datasets for analysis.
+
+### 2. SQL Analysis
+Performed SQL-based analysis for five business use cases:
+- Top 5 customers by revenue.
+- Overdue payments by region.
+- Lead-to-sale funnel analysis.
+- Monthly sales by region.
+- Fulfilment performance by warehouse.
+
+### 3. Excel Dashboard
+Created an interactive Excel dashboard featuring:
+- Total Revenue
+- Lead Conversion Rate
+- Average Fulfilment Days
+- Total Expenses
+- Average Monthly Sales
+
+Included six visualisations covering revenue, lead conversion, warehouse delays, expenses, monthly sales trends and top customers.
+
+### 4. Power BI Dashboard
+Developed an interactive dashboard with:
+- KPI cards.
+- Revenue by region and channel.
+- Lead conversion by status.
+- Fulfilment delays by warehouse.
+- Expenses by category.
+- Monthly sales trends.
+- Top 5 customers.
+- Region, Channel and Order Date filters.
+
+### 5. Root Cause Analysis
+Investigated business performance issues and identified key findings:
+- East region recorded the lowest revenue.
+- Customer acquisition opportunities were identified in East.
+- Failed deliveries and order-status mismatches required attention.
+- Missing shipment records highlighted coordination issues between Sales and Operations.
+
+Prepared business recommendations based on the analysis.
+
+### 6. Automation
+Developed Google Apps Script functions for:
+- Overdue invoice monitoring.
+- Upcoming invoice highlighting.
+- Automated overdue invoice email alerts.
+- Testing automation using sample data.
+
+## Key Business Metrics
 - **Total Revenue:** ₹1,278.6 Cr
 - **Lead Conversion Rate:** 47.7%
 - **Average Fulfilment Days:** 5.68 days
 - **Total Expenses:** ₹132.3 Cr
 - **Average Monthly Sales:** ₹106.5 Cr
 
-## Key Analysis & Visualisations
-The dashboard includes six major visualisations:
-
-1. Revenue by Region and Sales Channel
-2. Lead Conversion by Status
-3. Fulfilment Delays by Warehouse
-4. Expenses by Category
-5. Monthly Sales Trend
-6. Top 5 Customers by Revenue
-
-## Key Business Insights
-- South recorded the highest regional revenue at approximately ₹389.3 Cr.
-- East recorded the lowest regional revenue at approximately ₹184.9 Cr.
-- The overall lead conversion rate was 47.7%.
-- Logistics was the highest expense category at approximately ₹40 Cr.
-- November recorded the highest monthly sales at approximately ₹141.6 Cr.
-- The average fulfilment time was approximately 5.68 days.
-
-## Interactive Features
-- Pivot Table-based analysis.
-- Interactive slicers for filtering data.
-- KPI cards for monitoring business performance.
-- Multiple charts for comparing business metrics.
-
-## Project File
-The Excel workbook is available in this repository:
-
-`MIS_Final_Dashboard.xlsx`
-
 ## Project Objective
-The objective of this project was to transform raw business data into an interactive Excel dashboard that helps users monitor performance, identify trends, and support data-driven business decisions.
+The objective was to transform raw business data into meaningful insights, identify operational and financial issues, and support better business decisions through analytics and reporting.
 
 ---
 
-**Project Category:** Data Analytics / MIS Reporting  
-**Tool:** Microsoft Excel
+**Project Category:** MIS Analytics & Business Intelligence  
+**Tools:** Excel, SQL, Power BI, Google Apps Script
